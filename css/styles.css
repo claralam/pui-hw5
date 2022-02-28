@@ -35,7 +35,6 @@ body {
 #top_row header h1{
     font-size: 2em;
     font-weight: 500;
-    line-height: 1.5em;
     width: 300px;
     height: auto;
     color: #FFFFFF;
@@ -76,6 +75,7 @@ body {
 /* Logged In Home Page */
 
 #sidebar {
+    float: left;
     width: 20%
 }
 
@@ -87,4 +87,17 @@ table {
 
 td {
     float: left;
+}
+
+#main-content {
+    width: 80%;
+    float: right;
+    text-align: center;
+}
+
+#main-content h2 {
+    font-size: 3em;
+    font-weight: 900;
+    height: auto;
+    line-height: 1em;
 }

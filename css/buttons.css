@@ -2,11 +2,19 @@
 /* Basic button */
 .button {
     font-size: 20px;
-    font-weight: 400;
     padding: 10px 20px;
     border-radius: 100px;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+/* Large sized */
+.large-button {
+    font-size: 25px;
+    padding: 10px auto;
+    line-height: 2.7em;
+    color: #000000;
+    background-color: #E1EAFD;
 }
 
 /* Medium sized */
@@ -23,10 +31,10 @@
 .button-gray {
     font-size: 15px;
     padding: 5px 7px;
-    margin-left: 10px;
+    margin-left: 150px;
     border-radius: 100px;
     background-color: #C4C4C4;
     text-decoration: none;
-    float: right;
+    text-align: right;
     height: auto;
 }
