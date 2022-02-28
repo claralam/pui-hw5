@@ -1,0 +1,32 @@
+
+/* Basic button */
+.button {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Medium sized */
+.medium-button {
+    font-size: 30px;
+}
+
+/* Login button */
+.login-button {
+    background-color: #79A5FC;
+}
+
+/* Gray button --> Used for QR code on loggedin-home.html */
+.button-gray {
+    font-size: 15px;
+    padding: 5px 7px;
+    margin-left: 10px;
+    border-radius: 100px;
+    background-color: #C4C4C4;
+    text-decoration: none;
+    float: right;
+    height: auto;
+}
