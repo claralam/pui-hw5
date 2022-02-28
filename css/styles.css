@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 100%;
+    font-size: 110%;
     line-height: 1.5em;
     color: #000000;
     margin: 0px;
@@ -79,6 +79,15 @@ body {
     width: 20%
 }
 
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
 table {
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
@@ -97,7 +106,9 @@ td {
 
 #main-content h2 {
     font-size: 3em;
-    font-weight: 900;
     height: auto;
     line-height: 1em;
 }
+
+/* Selecting Appt Type */
+
