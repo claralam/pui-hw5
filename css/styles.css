@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 110%;
+    font-size: 100%;
     line-height: 1.5em;
     color: #000000;
     margin: 0px;
@@ -11,7 +11,7 @@ body {
 
 /* Nav Bar for pre-login */
 #top_row {
-    height: 80px;
+    height: 50px;
     padding: .5em .5em 3em .5em;
     border-bottom: 1px solid #5574B1;
     align-content: center;
@@ -20,7 +20,7 @@ body {
 
 .logo {
     width: auto;
-    height: 6em;
+    height: 4em;
     padding: 0.5em;
     float: left;
 }
@@ -33,9 +33,9 @@ body {
 } */
 
 #top_row header h1{
-    font-size: 2em;
+    font-size: 1.75em;
     font-weight: 500;
-    width: 300px;
+    width: 250px;
     height: auto;
     color: #FFFFFF;
     line-height: 1em;
@@ -45,7 +45,7 @@ body {
 
 #top_row nav {
     float: right;
-    margin: 50px 20px;
+    margin: 35px 20px;
     text-transform: capitalize;
 }
 
@@ -63,13 +63,13 @@ body {
     color: #5574B1;
 }
 
-#home-page-content {
+#centered-page {
     text-align: center;
     margin: 25%;
 }
 
 #content {
-    margin: 200px 60px 0px;
+    margin: 125px 60px 0px;
 }
 
 /* Logged In Home Page */
@@ -112,3 +112,138 @@ td {
 
 /* Selecting Appt Type */
 
+#choose-appt-type input[type="radio"] {
+    margin: 20px 15px;
+    transform: scale(1.75); 
+}
+
+#choose-appt-type label {
+    font-size: 20px;
+}
+
+/* Selecting Appt Date &Time */
+
+#left-half {
+    width: 40%;
+    float: left;
+    line-height: 0.5em;
+    font-size: 1em;
+}
+
+#date-selection {
+    align-content: center;
+    text-align: center;
+    background-color: #E1EAFD;
+    padding: 5px;
+    line-height: 0.8em;
+    border-radius: 20px;
+}
+
+#date-selection img, #date-selection p {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#choose-appt-date {
+    margin: 10px;
+    width: 150%
+  }
+  
+#choose-appt-date input[type="radio"] {
+    opacity: 0;
+    width: 0;
+}
+
+#choose-appt-date label {
+    position: relative;
+    left: -165px;
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px;
+    margin: 0px 10px;
+    text-align: center;
+    line-height: 1em;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+#choose-appt-date label:hover {
+    border: 2px solid #79A5FC;
+}
+
+#choose-appt-date input[type="radio"]:checked + label {
+    background-color: #79A5FC;
+}
+
+#choose-appt-time {
+    position: relative;
+    display: inline-block;
+}
+
+#choose-appt-time input[type="radio"] {
+    margin: 20px 15px;
+    transform: scale(1.5);
+}
+
+#time-group1 {
+    float: left;
+    margin-left: 50px;
+}
+
+#time-group2 {
+    margin-left: 225px;
+    float: right;
+}
+
+#right-half {
+    width: 55%;
+    float: right;
+    font-size: 1.25em;
+    line-height: 1.2em;
+}
+
+#right-half p {
+    margin: 0px;
+}
+
+.appt-info-right {
+    position: absolute;
+    left: 1000px;
+    width: 500px;
+    text-align: left;
+}
+
+iframe {
+    margin: 20px 0px;
+}
+
+/* Confirm Appt Page */
+
+#qr-code {
+    width: 30%; 
+}
+
+#right-half-centered {
+    width: 55%;
+    float: right;
+    line-height: 2.5em;
+    text-align: center;
+}
+
+#right-half-centered p {
+    margin: 0px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+.appt-info-left {
+    position: absolute;
+    left: 200px;
+    width: 500px;
+    text-align: left;
+}
