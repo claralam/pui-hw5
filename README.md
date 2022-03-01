@@ -14,3 +14,4 @@ created the pages where a user would schedule a test as the product detail pages
 Additional work:
 Added confirm-appt.html, appt-confirmation.html as additional confirmation pages
 for previous scheduling pages.
+I also created a login page.
