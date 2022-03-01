@@ -22,6 +22,11 @@
     font-size: 30px;
 }
 
+.small-login-button {
+    background-color: #79A5FC;
+    font-size: 15px;
+}
+
 /* Login button */
 .login-button {
     background-color: #79A5FC;

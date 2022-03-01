@@ -31,8 +31,19 @@
         </nav>
 
         <div id="content">
-            <h2>Login Page</h2>
-            <a href="loggedin-home.html">Press here to access logged in screen</a>
+            <h2>Login</h2>
+            <h3>Get tested and vaccinated for COVID-19!</h3>
+            <form id="login-form">
+                <label for="andrewid">Andrew ID:</label>
+                <input type="text" id="andrewid" name="andrewid" placeholder="andrewid" size="20" maxlength="250" required><br/><br/>
+                
+                <label for="pswd">Password:</label>
+                <input type="password" id="pswd" name="pswd" placeholder="password" size="20" maxlength="30"><br/><br/>
+            </form>
+            <div id="login-support-items">
+                <a href="">Forgot password?</a><br>
+                <a href="loggedin-home.html" class="button small-login-button">Login</a>
+            </div>
         </div>
     </div>
 </body>
