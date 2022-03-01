@@ -11,7 +11,7 @@
 /* Large sized */
 .large-button {
     font-size: 25px;
-    padding: 40px auto;
+    padding: 15px;
     line-height: 3.5em;
     color: #000000;
     background-color: #E1EAFD;
@@ -63,5 +63,4 @@
 
 .left-right-buttons {
     width: 15px;
-    position: inline-flex;
 }
